@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Remove as margens e o preenchimento padrão de todos os elementos para garantir um layout consistente */
+
+body {
+  background-color: #18122b; /* Define a cor de fundo do corpo da página */
+  box-sizing: border-box; /* Inclui margens e preenchimento no cálculo da largura e altura dos elementos */
+  color: white; /* Define a cor do texto como branca */
+}
+
+a {
+  color: white;
+}
+
+.menu_cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* Cria um layout flexível, centralizando o conteúdo vertical e horizontalmente, com espaçamento entre os itens */
+
+  font-size: 2.2rem;
+  /* Define o tamanho da fonte dos itens do menu */
+
+  margin-top: 50px;
+  /* Adiciona uma margem superior para espaçar o menu do topo da página */
+}
+
+.apressentacao_link {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #9f95c2;
+  text-decoration: none;
+  border: solid 2px #443c68;
+  border-radius: 30px; /* Define bordas arredondadas para os links */
+  padding: 6px; /*espaçamento interno*/
+  background-color: #393053;
+}
+
+.apressentacao_conteudo_titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 30px;
+  /* Centraliza o título do conteúdo horizontal e verticalmente */
+}
+
+.apressentacao_conteudo_texto {
+  font-size: 1.06;
+  font-family: "Montserrat Alternates", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Centraliza o texto do conteúdo horizontal e verticalmente */
+
+  margin-top: 15px;
+}
+
+form {
+  border: #635985 1px solid;
+  /* Adiciona uma borda ao formulário */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.pai {
+  display: flex;
+  gap: 10px;
+}
+
+.input_box {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid #9f95c2;
+  font-size: 1.6rem;
+  color: white;
+}
